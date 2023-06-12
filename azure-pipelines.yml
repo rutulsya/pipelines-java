@@ -27,8 +27,8 @@ steps:
     publishLocation: 'Container'
 
 schedules:
-- cron: '0-50/10 0-23/1 * * *'
-  displayName: Daily Hour build
+- cron: '0 0 * * *'
+  displayName: Daily Nightly build
   always: true
   branches:
     include:
